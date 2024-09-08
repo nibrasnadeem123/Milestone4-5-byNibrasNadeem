@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f6;
+}
+h1{
+    text-align: center;
+    color: grey;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+    padding: 20px;
+}
+ fieldset{
+    border: 2px solid #3294bd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+ }
+ legend{
+    font-weight: bold;
+    text-align: left;
+    color:#2c3e50
+ }
+ label{
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+ }
+ #resume-image{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3294bd;
+    box-shadow: o 4px 8px rgba(11,7,211,0.5);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+ }
+ 
+ input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #3596bd;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+button{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(45,215,237);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 18px;
+    font-family: sans-serif,monospace;
+}
+button:hover{
+    background-color: #69c0e6;
+}
+
+#resumeOutput{
+max-width: 600px;
+margin: auto;
+padding: 20px;
+border: 2px solid #3596bd;
+border-radius: 8px;
+background-color: aliceblue;
+box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+}
+#resumeOutput h2{
+    color: #2c3e50;
+}
